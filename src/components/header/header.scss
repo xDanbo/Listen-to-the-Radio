@@ -1,0 +1,20 @@
+@import '../../styles/_vars';
+
+.header {
+	height: 60px;
+}
+
+.sitename {
+	font-size: 2rem;
+	color: $redColor;
+	margin: 0 15px 0 0;
+	&:hover {
+		color: lighten($redColor,12%);
+	}
+}
+
+.wrapper.night-mod {
+	.sitename {
+		color: $neonNightColor;
+	}
+}

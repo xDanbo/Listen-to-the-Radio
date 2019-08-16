@@ -1,0 +1,43 @@
+@import '../../styles/_vars';
+
+.tag-list {
+	align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tag-item {
+	&:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+	align-items: center;
+	color: #4a4a4a;
+	display: inline-flex;
+	height: 2em;
+	justify-content: center;
+	line-height: 1.5;
+	white-space: nowrap;
+}
+
+.tag-block {
+	cursor: pointer;
+	border-radius: 4px;
+	background: $blueColorLight;
+	font-size: 0.75rem;
+	color: #fff;
+	padding: 0 0.75em;
+	&:hover, &:active {
+		background: $blueColor;
+	}
+}
+
+.wrapper.night-mod {
+	.tag-block {
+		color: #dadada;
+		background: $contentBgNightColor;
+		&:hover, &:active {
+			background: lighten($contentBgNightColor,9%);
+		}
+	}
+}

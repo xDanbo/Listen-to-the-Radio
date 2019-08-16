@@ -1,0 +1,58 @@
+@import '../../styles/_vars';
+
+.tab-bar {
+  margin: 0 0 100px 0;
+}
+
+.tabs-wrapper {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  align-items: stretch;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper.night-mod {
+  .tabs-wrapper {
+    border-bottom: 1px solid #38444d;
+  }
+}
+
+.tab-container {
+  min-height: 77px;
+  //min-height: calc(100vh - 210px);
+  position: relative;
+}
+
+.vertical.tab-bar {
+  display: flex;
+  align-items: stretch;
+}
+
+.vertical .tab-bar-nav-list {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 1 0 30%;
+}
+
+.vertical .tab-container {
+  box-sizing: border-box;
+  flex: 1 0 70%;
+  top: 0;
+}
+
+.vertical .tab-container {
+  min-height: 200px;
+  border-radius: 0 5px 5px 0;
+}

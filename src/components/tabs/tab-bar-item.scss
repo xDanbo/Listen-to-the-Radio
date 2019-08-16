@@ -1,0 +1,12 @@
+.tab-bar-item {
+  height: 0;
+  overflow: hidden;
+  &.active-mod {
+    // height: auto;
+    height: 100%;
+  }
+}
+
+.tab-bar-item.active {
+  height: 100%;
+}

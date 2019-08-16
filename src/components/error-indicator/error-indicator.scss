@@ -1,0 +1,19 @@
+@import '../../styles/_vars';
+
+.error-msg {
+	height: 77px;
+	line-height: 77px;
+	font-size: 1.2rem;
+}
+
+.error-icon {
+	font-size: 1.5rem;
+	margin: 0 5px 0 0;
+	color: $redColor;
+}
+
+.wrapper.night-mod {
+	.error-icon {
+		color: $neonNightColor;
+	}
+}

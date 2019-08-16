@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap&subset=cyrillic');
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+
+.is-vcentered {
+	align-items: center;
+}
+
+.is-vbottom {
+	align-items: flex-end;
+}
+
+.is-hcentered {
+	justify-content: center;
+}
+
+.is-wrap {
+	flex-wrap: wrap;
+}
+
+.container {
+	padding: 0 20px;
+}
